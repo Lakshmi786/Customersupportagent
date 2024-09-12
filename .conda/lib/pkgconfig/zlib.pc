@@ -1,0 +1,13 @@
+prefix=/workspaces/Customersupportagent/.conda
+exec_prefix=/workspaces/Customersupportagent/.conda
+libdir=/workspaces/Customersupportagent/.conda/lib
+sharedlibdir=/workspaces/Customersupportagent/.conda/lib
+includedir=/workspaces/Customersupportagent/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
