@@ -87,7 +87,7 @@ build_time_vars = {'ABIFLAGS': '',
                 "'--with-tcltk-libs=-L/workspaces/Customersupportagent/.conda/lib "
                 "-ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto' "
                 "'--enable-optimizations' "
-                "'-oldincludedir=/croot/python-split_1713544621630/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' "
+                "'-oldincludedir=/croot/python-split_1727939961902/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' "
                 "'--disable-shared' 'PROFILE_TASK=-m test --pgo' "
                 "'build_alias=x86_64-conda-linux-gnu' "
                 "'host_alias=x86_64-conda-linux-gnu' "
@@ -109,18 +109,18 @@ build_time_vars = {'ABIFLAGS': '',
                 "'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem "
                 '/workspaces/Customersupportagent/.conda/include '
                 "-I/workspaces/Customersupportagent/.conda/include' "
-                "'CPP=/croot/python-split_1713544621630/_build_env/bin/x86_64-conda-linux-gnu-cpp'",
+                "'CPP=/croot/python-split_1727939961902/_build_env/bin/x86_64-conda-linux-gnu-cpp'",
  'CONFINCLUDEDIR': '/workspaces/Customersupportagent/.conda/include',
  'CONFINCLUDEPY': '/workspaces/Customersupportagent/.conda/include/python3.11',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/croot/python-split_1713544621630/work/build-static/coverage.info',
+ 'COVERAGE_INFO': '/croot/python-split_1727939961902/work/build-static/coverage.info',
  'COVERAGE_LCOV_OPTIONS': '--rc lcov_branch_coverage=1',
- 'COVERAGE_REPORT': '/croot/python-split_1713544621630/work/build-static/lcov-report',
+ 'COVERAGE_REPORT': '/croot/python-split_1727939961902/work/build-static/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--rc lcov_branch_coverage=1 --branch-coverage '
                             '--title "CPython 3.11 LCOV report [commit $(shell '
                             ')]"',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-             '-I/croot/python-split_1713544621630/work/Include -DNDEBUG '
+             '-I/croot/python-split_1727939961902/work/Include -DNDEBUG '
              '-D_FORTIFY_SOURCE=2 -O2 -isystem '
              '/workspaces/Customersupportagent/.conda/include '
              '-I/workspaces/Customersupportagent/.conda/include '
@@ -128,13 +128,13 @@ build_time_vars = {'ABIFLAGS': '',
              '/workspaces/Customersupportagent/.conda/include '
              '-I/workspaces/Customersupportagent/.conda/include',
  'CXX': 'x86_64-conda-linux-gnu-c++ -pthread',
- 'DECIMAL_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/_decimal/libmpdec '
+ 'DECIMAL_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/_decimal/libmpdec '
                    '-DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1',
  'DECIMAL_LDFLAGS': '-lm Modules/_decimal/libmpdec/libmpdec.a',
  'DEEPFREEZE_C': 'Python/deepfreeze/deepfreeze.c',
- 'DEEPFREEZE_DEPS': '/croot/python-split_1713544621630/work/Tools/scripts/deepfreeze.py '
+ 'DEEPFREEZE_DEPS': '/croot/python-split_1727939961902/work/Tools/scripts/deepfreeze.py '
                     '_bootstrap_python '
-                    '/croot/python-split_1713544621630/work/Programs/_freeze_module.py '
+                    '/croot/python-split_1727939961902/work/Programs/_freeze_module.py '
                     '\\',
  'DEEPFREEZE_OBJS': 'Python/deepfreeze/deepfreeze.o',
  'DESTDIRS': '/workspaces/Customersupportagent/.conda '
@@ -165,7 +165,7 @@ build_time_vars = {'ABIFLAGS': '',
  'ENSUREPIP': 'no',
  'EXE': '',
  'EXEMODE': 755,
- 'EXPAT_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/expat',
+ 'EXPAT_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/expat',
  'EXPAT_LDFLAGS': '-lm Modules/expat/libexpat.a',
  'EXPORTSFROM': '',
  'EXPORTSYMS': '',
@@ -174,11 +174,11 @@ build_time_vars = {'ABIFLAGS': '',
  'FILEMODE': 644,
  'FLOAT_WORDS_BIGENDIAN': 0,
  'FREEZE_MODULE': './_bootstrap_python '
-                  '/croot/python-split_1713544621630/work/Programs/_freeze_module.py',
+                  '/croot/python-split_1727939961902/work/Programs/_freeze_module.py',
  'FREEZE_MODULE_BOOTSTRAP': './Programs/_freeze_module',
  'FREEZE_MODULE_BOOTSTRAP_DEPS': 'Programs/_freeze_module',
  'FREEZE_MODULE_DEPS': '_bootstrap_python '
-                       '/croot/python-split_1713544621630/work/Programs/_freeze_module.py',
+                       '/croot/python-split_1727939961902/work/Programs/_freeze_module.py',
  'FROZEN_FILES_IN': '\\',
  'FROZEN_FILES_OUT': '\\',
  'GETPGRP_HAVE_ARG': 0,
@@ -711,7 +711,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBDEST': '/workspaces/Customersupportagent/.conda/lib/python3.11',
  'LIBDIR': '/workspaces/Customersupportagent/.conda/lib',
  'LIBEXPAT_A': 'Modules/expat/libexpat.a',
- 'LIBEXPAT_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/expat '
+ 'LIBEXPAT_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/expat '
                     '-DNDEBUG -fwrapv -O2 -Wall -march=nocona -mtune=haswell '
                     '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
                     '-O2 -ffunction-sections -pipe -isystem '
@@ -731,9 +731,9 @@ build_time_vars = {'ABIFLAGS': '',
                     ' -g -std=c11 '
                     '-Werror=implicit-function-declaration -fvisibility=hidden '
                     '  '
-                    '-I/croot/python-split_1713544621630/work/Include/internal '
+                    '-I/croot/python-split_1727939961902/work/Include/internal '
                     '-IObjects -IInclude -IPython -I. '
-                    '-I/croot/python-split_1713544621630/work/Include -DNDEBUG '
+                    '-I/croot/python-split_1727939961902/work/Include -DNDEBUG '
                     '-D_FORTIFY_SOURCE=2 -O2 -isystem '
                     '/workspaces/Customersupportagent/.conda/include '
                     '-I/workspaces/Customersupportagent/.conda/include '
@@ -746,7 +746,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBFFI_INCLUDEDIR': '/workspaces/Customersupportagent/.conda/include',
  'LIBM': '-lm',
  'LIBMPDEC_A': 'Modules/_decimal/libmpdec/libmpdec.a',
- 'LIBMPDEC_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/_decimal/libmpdec '
+ 'LIBMPDEC_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/_decimal/libmpdec '
                     '-DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1 -DNDEBUG '
                     '-fwrapv -O2 -Wall -march=nocona -mtune=haswell '
                     '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
@@ -767,9 +767,9 @@ build_time_vars = {'ABIFLAGS': '',
                     ' -g -std=c11 '
                     '-Werror=implicit-function-declaration -fvisibility=hidden '
                     '  '
-                    '-I/croot/python-split_1713544621630/work/Include/internal '
+                    '-I/croot/python-split_1727939961902/work/Include/internal '
                     '-IObjects -IInclude -IPython -I. '
-                    '-I/croot/python-split_1713544621630/work/Include -DNDEBUG '
+                    '-I/croot/python-split_1727939961902/work/Include -DNDEBUG '
                     '-D_FORTIFY_SOURCE=2 -O2 -isystem '
                     '/workspaces/Customersupportagent/.conda/include '
                     '-I/workspaces/Customersupportagent/.conda/include '
@@ -808,7 +808,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MAINCC': 'x86_64-conda-linux-gnu-gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
- 'MAKESETUP': '/croot/python-split_1713544621630/work/Modules/makesetup',
+ 'MAKESETUP': '/croot/python-split_1727939961902/work/Modules/makesetup',
  'MANDIR': '/workspaces/Customersupportagent/.conda/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'atexit  faulthandler  posix  _signal  _tracemalloc  '
@@ -840,7 +840,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_BINASCII_LDFLAGS': '-L/workspaces/Customersupportagent/.conda/lib '
                             '-lz',
  'MODULE_BINASCII_STATE': 'yes',
- 'MODULE_CMATH_DEPS': '/croot/python-split_1713544621630/work/Modules/_math.h',
+ 'MODULE_CMATH_DEPS': '/croot/python-split_1727939961902/work/Modules/_math.h',
  'MODULE_CMATH_LDFLAGS': '-lm',
  'MODULE_CMATH_STATE': 'yes',
  'MODULE_ERRNO_LDFLAGS': '',
@@ -849,7 +849,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_FCNTL_STATE': 'yes',
  'MODULE_GRP_STATE': 'yes',
  'MODULE_ITERTOOLS_LDFLAGS': '',
- 'MODULE_MATH_DEPS': '/croot/python-split_1713544621630/work/Modules/_math.h',
+ 'MODULE_MATH_DEPS': '/croot/python-split_1727939961902/work/Modules/_math.h',
  'MODULE_MATH_LDFLAGS': '-lm',
  'MODULE_MATH_STATE': 'yes',
  'MODULE_MMAP_STATE': 'yes',
@@ -862,7 +862,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_POSIX_LDFLAGS': '',
  'MODULE_PWD_LDFLAGS': '',
  'MODULE_PWD_STATE': 'yes',
- 'MODULE_PYEXPAT_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/expat',
+ 'MODULE_PYEXPAT_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/expat',
  'MODULE_PYEXPAT_DEPS': '\\ Modules/expat/libexpat.a',
  'MODULE_PYEXPAT_LDFLAGS': '-lm Modules/expat/libexpat.a',
  'MODULE_PYEXPAT_STATE': 'yes',
@@ -873,8 +873,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_TERMIOS_STATE': 'yes',
  'MODULE_TIME_LDFLAGS': '',
  'MODULE_TIME_STATE': 'yes',
- 'MODULE_UNICODEDATA_DEPS': '/croot/python-split_1713544621630/work/Modules/unicodedata_db.h '
-                            '/croot/python-split_1713544621630/work/Modules/unicodename_db.h',
+ 'MODULE_UNICODEDATA_DEPS': '/croot/python-split_1727939961902/work/Modules/unicodedata_db.h '
+                            '/croot/python-split_1727939961902/work/Modules/unicodename_db.h',
  'MODULE_UNICODEDATA_STATE': 'yes',
  'MODULE_XXLIMITED_35_STATE': 'yes',
  'MODULE_XXLIMITED_STATE': 'yes',
@@ -887,22 +887,22 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__ASYNCIO_STATE': 'yes',
  'MODULE__BISECT_STATE': 'yes',
  'MODULE__BLAKE2_CFLAGS': '',
- 'MODULE__BLAKE2_DEPS': '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2-config.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2-impl.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2b-load-sse2.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2b-load-sse41.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2b-ref.c '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2b-round.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2b.c '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2s-load-sse2.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2s-load-sse41.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2s-load-xop.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2s-ref.c '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2s-round.h '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/impl/blake2s.c '
-                        '/croot/python-split_1713544621630/work/Modules/_blake2/blake2module.h '
-                        '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__BLAKE2_DEPS': '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2-config.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2-impl.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2b-load-sse2.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2b-load-sse41.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2b-ref.c '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2b-round.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2b.c '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2s-load-sse2.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2s-load-sse41.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2s-load-xop.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2s-ref.c '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2s-round.h '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/impl/blake2s.c '
+                        '/croot/python-split_1727939961902/work/Modules/_blake2/blake2module.h '
+                        '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__BLAKE2_LDFLAGS': '',
  'MODULE__BLAKE2_STATE': 'yes',
  'MODULE__BZ2_CFLAGS': '',
@@ -921,31 +921,31 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__CRYPT_LDFLAGS': '-lcrypt',
  'MODULE__CRYPT_STATE': 'yes',
  'MODULE__CSV_STATE': 'yes',
- 'MODULE__CTYPES_DEPS': '/croot/python-split_1713544621630/work/Modules/_ctypes/ctypes.h',
+ 'MODULE__CTYPES_DEPS': '/croot/python-split_1727939961902/work/Modules/_ctypes/ctypes.h',
  'MODULE__CTYPES_TEST_LDFLAGS': '-lm',
  'MODULE__CTYPES_TEST_STATE': 'yes',
  'MODULE__DATETIME_LDFLAGS': '-lm',
  'MODULE__DATETIME_STATE': 'yes',
- 'MODULE__DECIMAL_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/_decimal/libmpdec '
+ 'MODULE__DECIMAL_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/_decimal/libmpdec '
                            '-DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1',
- 'MODULE__DECIMAL_DEPS': '/croot/python-split_1713544621630/work/Modules/_decimal/docstrings.h '
+ 'MODULE__DECIMAL_DEPS': '/croot/python-split_1727939961902/work/Modules/_decimal/docstrings.h '
                          '\\ Modules/_decimal/libmpdec/libmpdec.a',
  'MODULE__DECIMAL_LDFLAGS': '-lm Modules/_decimal/libmpdec/libmpdec.a',
  'MODULE__DECIMAL_STATE': 'yes',
- 'MODULE__ELEMENTTREE_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/expat',
- 'MODULE__ELEMENTTREE_DEPS': '/croot/python-split_1713544621630/work/Modules/pyexpat.c '
+ 'MODULE__ELEMENTTREE_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/expat',
+ 'MODULE__ELEMENTTREE_DEPS': '/croot/python-split_1727939961902/work/Modules/pyexpat.c '
                              '\\ Modules/expat/libexpat.a',
  'MODULE__ELEMENTTREE_STATE': 'yes',
  'MODULE__FUNCTOOLS_LDFLAGS': '',
  'MODULE__GDBM_STATE': 'missing',
  'MODULE__HASHLIB_CFLAGS': '-I/workspaces/Customersupportagent/.conda/include',
- 'MODULE__HASHLIB_DEPS': '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__HASHLIB_DEPS': '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__HASHLIB_LDFLAGS': '-L/workspaces/Customersupportagent/.conda/lib   '
                             '-lcrypto',
  'MODULE__HASHLIB_STATE': 'yes',
  'MODULE__HEAPQ_STATE': 'yes',
- 'MODULE__IO_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/_io',
- 'MODULE__IO_DEPS': '/croot/python-split_1713544621630/work/Modules/_io/_iomodule.h',
+ 'MODULE__IO_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/_io',
+ 'MODULE__IO_DEPS': '/croot/python-split_1727939961902/work/Modules/_io/_iomodule.h',
  'MODULE__IO_LDFLAGS': '',
  'MODULE__IO_STATE': 'yes',
  'MODULE__JSON_STATE': 'yes',
@@ -955,59 +955,59 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__LZMA_LDFLAGS': '-L/workspaces/Customersupportagent/.conda/lib '
                          '-llzma',
  'MODULE__LZMA_STATE': 'yes',
- 'MODULE__MD5_DEPS': '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__MD5_DEPS': '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__MD5_STATE': 'yes',
  'MODULE__MULTIBYTECODEC_STATE': 'yes',
- 'MODULE__MULTIPROCESSING_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/_multiprocessing',
+ 'MODULE__MULTIPROCESSING_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/_multiprocessing',
  'MODULE__MULTIPROCESSING_STATE': 'yes',
  'MODULE__OPCODE_STATE': 'yes',
  'MODULE__OPERATOR_LDFLAGS': '',
  'MODULE__PICKLE_STATE': 'yes',
- 'MODULE__POSIXSHMEM_CFLAGS': '-I/croot/python-split_1713544621630/work/Modules/_multiprocessing',
+ 'MODULE__POSIXSHMEM_CFLAGS': '-I/croot/python-split_1727939961902/work/Modules/_multiprocessing',
  'MODULE__POSIXSHMEM_LDFLAGS': '-lrt',
  'MODULE__POSIXSHMEM_STATE': 'yes',
  'MODULE__POSIXSUBPROCESS_STATE': 'yes',
  'MODULE__QUEUE_STATE': 'yes',
  'MODULE__RANDOM_STATE': 'yes',
  'MODULE__SCPROXY_STATE': 'n/a',
- 'MODULE__SHA1_DEPS': '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__SHA1_DEPS': '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__SHA1_STATE': 'yes',
- 'MODULE__SHA256_DEPS': '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__SHA256_DEPS': '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__SHA256_STATE': 'yes',
- 'MODULE__SHA3_DEPS': '/croot/python-split_1713544621630/work/Modules/_sha3/sha3.c '
-                      '/croot/python-split_1713544621630/work/Modules/_sha3/sha3.h '
-                      '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__SHA3_DEPS': '/croot/python-split_1727939961902/work/Modules/_sha3/sha3.c '
+                      '/croot/python-split_1727939961902/work/Modules/_sha3/sha3.h '
+                      '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__SHA3_STATE': 'yes',
- 'MODULE__SHA512_DEPS': '/croot/python-split_1713544621630/work/Modules/hashlib.h',
+ 'MODULE__SHA512_DEPS': '/croot/python-split_1727939961902/work/Modules/hashlib.h',
  'MODULE__SHA512_STATE': 'yes',
  'MODULE__SIGNAL_LDFLAGS': '',
- 'MODULE__SOCKET_DEPS': '/croot/python-split_1713544621630/work/Modules/socketmodule.h '
-                        '/croot/python-split_1713544621630/work/Modules/addrinfo.h '
-                        '/croot/python-split_1713544621630/work/Modules/getaddrinfo.c '
-                        '/croot/python-split_1713544621630/work/Modules/getnameinfo.c',
+ 'MODULE__SOCKET_DEPS': '/croot/python-split_1727939961902/work/Modules/socketmodule.h '
+                        '/croot/python-split_1727939961902/work/Modules/addrinfo.h '
+                        '/croot/python-split_1727939961902/work/Modules/getaddrinfo.c '
+                        '/croot/python-split_1727939961902/work/Modules/getnameinfo.c',
  'MODULE__SOCKET_STATE': 'yes',
  'MODULE__SQLITE3_CFLAGS': '-I/workspaces/Customersupportagent/.conda/include '
-                           '-I/croot/python-split_1713544621630/work/Modules/_sqlite',
- 'MODULE__SQLITE3_DEPS': '/croot/python-split_1713544621630/work/Modules/_sqlite/connection.h '
-                         '/croot/python-split_1713544621630/work/Modules/_sqlite/cursor.h '
-                         '/croot/python-split_1713544621630/work/Modules/_sqlite/microprotocols.h '
-                         '/croot/python-split_1713544621630/work/Modules/_sqlite/module.h '
-                         '/croot/python-split_1713544621630/work/Modules/_sqlite/prepare_protocol.h '
-                         '/croot/python-split_1713544621630/work/Modules/_sqlite/row.h '
-                         '/croot/python-split_1713544621630/work/Modules/_sqlite/util.h',
+                           '-I/croot/python-split_1727939961902/work/Modules/_sqlite',
+ 'MODULE__SQLITE3_DEPS': '/croot/python-split_1727939961902/work/Modules/_sqlite/connection.h '
+                         '/croot/python-split_1727939961902/work/Modules/_sqlite/cursor.h '
+                         '/croot/python-split_1727939961902/work/Modules/_sqlite/microprotocols.h '
+                         '/croot/python-split_1727939961902/work/Modules/_sqlite/module.h '
+                         '/croot/python-split_1727939961902/work/Modules/_sqlite/prepare_protocol.h '
+                         '/croot/python-split_1727939961902/work/Modules/_sqlite/row.h '
+                         '/croot/python-split_1727939961902/work/Modules/_sqlite/util.h',
  'MODULE__SQLITE3_LDFLAGS': '-L/workspaces/Customersupportagent/.conda/lib '
                             '-lsqlite3',
  'MODULE__SQLITE3_STATE': 'yes',
  'MODULE__SRE_LDFLAGS': '',
  'MODULE__SSL_CFLAGS': '-I/workspaces/Customersupportagent/.conda/include',
- 'MODULE__SSL_DEPS': '/croot/python-split_1713544621630/work/Modules/_ssl.h '
-                     '/croot/python-split_1713544621630/work/Modules/_ssl/cert.c '
-                     '/croot/python-split_1713544621630/work/Modules/_ssl/debughelpers.c '
-                     '/croot/python-split_1713544621630/work/Modules/_ssl/misc.c '
-                     '/croot/python-split_1713544621630/work/Modules/_ssl_data.h '
-                     '/croot/python-split_1713544621630/work/Modules/_ssl_data_111.h '
-                     '/croot/python-split_1713544621630/work/Modules/_ssl_data_300.h '
-                     '/croot/python-split_1713544621630/work/Modules/socketmodule.h',
+ 'MODULE__SSL_DEPS': '/croot/python-split_1727939961902/work/Modules/_ssl.h '
+                     '/croot/python-split_1727939961902/work/Modules/_ssl/cert.c '
+                     '/croot/python-split_1727939961902/work/Modules/_ssl/debughelpers.c '
+                     '/croot/python-split_1727939961902/work/Modules/_ssl/misc.c '
+                     '/croot/python-split_1727939961902/work/Modules/_ssl_data.h '
+                     '/croot/python-split_1727939961902/work/Modules/_ssl_data_111.h '
+                     '/croot/python-split_1727939961902/work/Modules/_ssl_data_300.h '
+                     '/croot/python-split_1727939961902/work/Modules/socketmodule.h',
  'MODULE__SSL_LDFLAGS': '-L/workspaces/Customersupportagent/.conda/lib  '
                         '-lssl -lcrypto',
  'MODULE__SSL_STATE': 'yes',
@@ -1017,7 +1017,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__STRUCT_STATE': 'yes',
  'MODULE__SYMTABLE_LDFLAGS': '',
  'MODULE__TESTBUFFER_STATE': 'yes',
- 'MODULE__TESTCAPI_DEPS': '/croot/python-split_1713544621630/work/Modules/testcapi_long.h',
+ 'MODULE__TESTCAPI_DEPS': '/croot/python-split_1727939961902/work/Modules/testcapi_long.h',
  'MODULE__TESTCAPI_STATE': 'yes',
  'MODULE__TESTCLINIC_STATE': 'yes',
  'MODULE__TESTIMPORTMULTIPLE_STATE': 'yes',
@@ -1107,9 +1107,9 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Werror=implicit-function-declaration '
                              '-fvisibility=hidden  '
                              ' '
-                             '-I/croot/python-split_1713544621630/work/Include/internal '
+                             '-I/croot/python-split_1727939961902/work/Include/internal '
                              '-IObjects -IInclude -IPython -I. '
-                             '-I/croot/python-split_1713544621630/work/Include '
+                             '-I/croot/python-split_1727939961902/work/Include '
                              '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
                              '/workspaces/Customersupportagent/.conda/include '
                              '-I/workspaces/Customersupportagent/.conda/include '
@@ -1136,7 +1136,7 @@ build_time_vars = {'ABIFLAGS': '',
                      '  -g -std=c11 '
                      '-Werror=implicit-function-declaration '
                      '-fvisibility=hidden   '
-                     '-I/croot/python-split_1713544621630/work/Include/internal',
+                     '-I/croot/python-split_1727939961902/work/Include/internal',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-DNDEBUG -fwrapv -O2 -Wall -march=nocona -mtune=haswell '
                    '-ftree-vectorize -fPIC -fstack-protector-strong -fno-plt '
@@ -1156,9 +1156,9 @@ build_time_vars = {'ABIFLAGS': '',
                    '   '
                    '-g -std=c11 -Werror=implicit-function-declaration '
                    '-fvisibility=hidden   '
-                   '-I/croot/python-split_1713544621630/work/Include/internal '
+                   '-I/croot/python-split_1727939961902/work/Include/internal '
                    '-IObjects -IInclude -IPython -I. '
-                   '-I/croot/python-split_1713544621630/work/Include -DNDEBUG '
+                   '-I/croot/python-split_1727939961902/work/Include -DNDEBUG '
                    '-D_FORTIFY_SOURCE=2 -O2 -isystem '
                    '/workspaces/Customersupportagent/.conda/include '
                    '-I/workspaces/Customersupportagent/.conda/include '
@@ -1179,7 +1179,7 @@ build_time_vars = {'ABIFLAGS': '',
                     '-fno-semantic-interposition   '
                     '  -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-                '-I/croot/python-split_1713544621630/work/Include -DNDEBUG '
+                '-I/croot/python-split_1727939961902/work/Include -DNDEBUG '
                 '-D_FORTIFY_SOURCE=2 -O2 -isystem '
                 '/workspaces/Customersupportagent/.conda/include '
                 '-I/workspaces/Customersupportagent/.conda/include '
@@ -1237,9 +1237,9 @@ build_time_vars = {'ABIFLAGS': '',
                         '-Werror=implicit-function-declaration '
                         '-fvisibility=hidden  '
                         ' '
-                        '-I/croot/python-split_1713544621630/work/Include/internal '
+                        '-I/croot/python-split_1727939961902/work/Include/internal '
                         '-IObjects -IInclude -IPython -I. '
-                        '-I/croot/python-split_1713544621630/work/Include '
+                        '-I/croot/python-split_1727939961902/work/Include '
                         '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem '
                         '/workspaces/Customersupportagent/.conda/include '
                         '-I/workspaces/Customersupportagent/.conda/include '
@@ -1290,7 +1290,7 @@ build_time_vars = {'ABIFLAGS': '',
             'Modules/_sre   Modules/_xxtestfuzz   Modules/cjkcodecs   '
             'Modules/expat   Objects   Parser   Programs   Python   '
             'Python/frozen_modules   Python/deepfreeze',
- 'SRC_GDB_HOOKS': '/croot/python-split_1713544621630/work/Tools/gdb/libpython.py',
+ 'SRC_GDB_HOOKS': '/croot/python-split_1727939961902/work/Tools/gdb/libpython.py',
  'STATIC_LIBPYTHON': 1,
  'STDC_HEADERS': 1,
  'STRICT_SYSV_CURSES': "/* Don't use ncurses extensions */",
@@ -1304,7 +1304,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TESTPYTHON': './python -E',
  'TESTPYTHONOPTS': '',
  'TESTRUNNER': './python -E '
-               '/croot/python-split_1713544621630/work/Tools/scripts/run_tests.py',
+               '/croot/python-split_1727939961902/work/Tools/scripts/run_tests.py',
  'TESTSUBDIRS': 'ctypes/test \\',
  'TESTTIMEOUT': 1200,
  'TEST_MODULES': 'yes',
@@ -1315,10 +1315,10 @@ build_time_vars = {'ABIFLAGS': '',
  'TZPATH': '/workspaces/Customersupportagent/.conda/share/zoneinfo:/workspaces/Customersupportagent/.conda/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
- 'UPDATE_FILE': '/croot/python-split_1713544621630/work/Tools/scripts/update_file.py',
+ 'UPDATE_FILE': '/croot/python-split_1727939961902/work/Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 1,
  'VERSION': '3.11',
- 'VPATH': '/croot/python-split_1713544621630/work',
+ 'VPATH': '/croot/python-split_1727939961902/work',
  'WASM_ASSETS_DIR': './workspaces/Customersupportagent/.conda',
  'WASM_STDLIB': './workspaces/Customersupportagent/.conda/lib/python3.11/os.py',
  'WHEEL_PKG_DIR': '',
@@ -1335,9 +1335,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/croot/python-split_1713544621630/work/build-static',
- 'abs_srcdir': '/croot/python-split_1713544621630/work',
+ 'abs_builddir': '/croot/python-split_1727939961902/work/build-static',
+ 'abs_srcdir': '/croot/python-split_1727939961902/work',
  'datarootdir': '/workspaces/Customersupportagent/.conda/share',
  'exec_prefix': '/workspaces/Customersupportagent/.conda',
  'prefix': '/workspaces/Customersupportagent/.conda',
- 'srcdir': '/croot/python-split_1713544621630/work'}
+ 'srcdir': '/croot/python-split_1727939961902/work'}

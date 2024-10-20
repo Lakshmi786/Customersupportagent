@@ -1,1 +1,6 @@
 streamlit
+chromadb
+llama-index-embeddings-huggingface
+langchain-core
+langchain-openai
+langgraph

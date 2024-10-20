@@ -29,10 +29,10 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.11
-srcdir=		/croot/python-split_1713544621630/work
-VPATH=		/croot/python-split_1713544621630/work
-abs_srcdir=	/croot/python-split_1713544621630/work
-abs_builddir=	/croot/python-split_1713544621630/work/build-static
+srcdir=		/croot/python-split_1727939961902/work
+VPATH=		/croot/python-split_1727939961902/work
+abs_srcdir=	/croot/python-split_1727939961902/work
+abs_builddir=	/croot/python-split_1727939961902/work/build-static
 
 
 CC=		x86_64-conda-linux-gnu-gcc -pthread
@@ -82,7 +82,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /workspaces/Customersupportagent/.conda/include -fdebug-prefix-map=/croot/python-split_1713544621630/work=/usr/local/src/conda/python-3.11.9 -fdebug-prefix-map=/workspaces/Customersupportagent/.conda=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /workspaces/Customersupportagent/.conda/include -fdebug-prefix-map=/croot/python-split_1727939961902/work=/usr/local/src/conda/python-3.11.10 -fdebug-prefix-map=/workspaces/Customersupportagent/.conda=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -357,7 +357,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/workspaces/Customersupportagent/.conda' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/workspaces/Customersupportagent/.conda/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/workspaces/Customersupportagent/.conda/include' '--with-tcltk-libs=-L/workspaces/Customersupportagent/.conda/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto' '--enable-optimizations' '-oldincludedir=/croot/python-split_1713544621630/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/workspaces/Customersupportagent/.conda/lib/pkgconfig' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /workspaces/Customersupportagent/.conda/include -fdebug-prefix-map=/croot/python-split_1713544621630/work=/usr/local/src/conda/python-3.11.9 -fdebug-prefix-map=/workspaces/Customersupportagent/.conda=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/workspaces/Customersupportagent/.conda/lib -Wl,-rpath-link,/workspaces/Customersupportagent/.conda/lib -L/workspaces/Customersupportagent/.conda/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /workspaces/Customersupportagent/.conda/include -I/workspaces/Customersupportagent/.conda/include' 'CPP=/croot/python-split_1713544621630/_build_env/bin/x86_64-conda-linux-gnu-cpp'
+CONFIG_ARGS=	 '--prefix=/workspaces/Customersupportagent/.conda' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/workspaces/Customersupportagent/.conda/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/workspaces/Customersupportagent/.conda/include' '--with-tcltk-libs=-L/workspaces/Customersupportagent/.conda/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-lto' '--enable-optimizations' '-oldincludedir=/croot/python-split_1727939961902/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/workspaces/Customersupportagent/.conda/lib/pkgconfig' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /workspaces/Customersupportagent/.conda/include -fdebug-prefix-map=/croot/python-split_1727939961902/work=/usr/local/src/conda/python-3.11.10 -fdebug-prefix-map=/workspaces/Customersupportagent/.conda=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/workspaces/Customersupportagent/.conda/lib -Wl,-rpath-link,/workspaces/Customersupportagent/.conda/lib -L/workspaces/Customersupportagent/.conda/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /workspaces/Customersupportagent/.conda/include -I/workspaces/Customersupportagent/.conda/include' 'CPP=/croot/python-split_1727939961902/_build_env/bin/x86_64-conda-linux-gnu-cpp'
 
 
 # Subdirectories with code
